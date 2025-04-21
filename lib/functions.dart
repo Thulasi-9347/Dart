@@ -28,3 +28,23 @@ void name(){
 String greet(){
   return 'Hello';
 }
+
+
+//Arrow Function in Dart
+
+/*
+Dart has a special syntax for the function body, wich is only one line.
+The arrow function is represented by => symbol.
+
+ returntyle functionName(parameters) => expression;
+
+ example:
+void add(int num1, int num2){
+  int sum = num1 + num2;
+  print(sum);
+}
+
+void addArrowFunction(int num1,int num2) => num1 + num1;
+
+
+* */

@@ -1,4 +1,12 @@
-/*void main(){
+void main(){
+  longestWord();
+  firstIndexUpper;
+  occurency();
+}
+
+
+
+void longestWord(){
   String sentence="this is a dart programming language";
   List<String> words=sentence.split(" ");
 
@@ -11,9 +19,9 @@
 
  }
   print(longest);
-}*/
+}
 
-/*void main(){
+void firstIndexUpper(){
   String sentence="this is dart";
   List<String> words=sentence.split(" ");
   String capital="";
@@ -26,10 +34,10 @@
 
 
 print(capital);
-}*/
+}
 
 
-void main(){
+void occurency(){
   String word="mommy";
  Map<String ,int> letterCount={};
  for(int i=0;i<word.length;i++){
